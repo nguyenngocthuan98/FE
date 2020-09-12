@@ -1,0 +1,239 @@
+@charset "UTF-8";
+.dropdown .dropdown-menu {
+    transform: unset !important;
+    top: 1em !important;
+}
+
+tbody tr td {
+    border: none;
+    color: #696c74;
+    background-color: #f7f8f9;
+    padding: 5px 10px;
+}
+
+.row.row-mx-5 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row.row-mx-5 > * {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+select {
+    height: unset !important;
+}
+
+html,
+body {
+    font-size: 13px;
+    font-family: "Varela Round", sans-serif;
+    color: #676767;
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav#status {
+    background: linear-gradient(to right, #ea1e6e, #fc545e, #ea1e6e);
+    background-color: #ea1e6e;
+    color: #fff;
+    padding: 0.7rem 0;
+    box-shadow: 0 2px 10px 2px #dedede;
+}
+
+nav#status a {
+    color: #fff;
+}
+
+nav#status .col-left span {
+    margin-right: 1.5rem;
+}
+
+nav#status .col-right {
+    text-align: right;
+}
+
+nav#status .col-right span {
+    margin-left: 1.5rem;
+}
+
+nav#status .col-right .dropdown {
+    padding-bottom: 15px;
+}
+
+nav#navigation
+    .nav-wrap
+    .nav-item.dropdown
+    .dropdown-menu
+    .dropdown-item:hover {
+    background-color: transparent;
+    color: #fd6b90;
+}
+
+nav#status .col-right .dropdown .dropdown-menu {
+    padding: 0.5rem;
+    border-color: #dedede;
+    margin-top: 14px;
+}
+
+nav#status .col-right .dropdown .dropdown-menu .dropdown-item {
+    color: #676767;
+    padding: 0.5rem 1rem;
+}
+
+nav#status .col-right .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #fd6b90;
+    background-color: #fafafa;
+}
+
+header#header {
+    padding: 1.5em 0;
+}
+
+header#header .row {
+    align-items: center;
+}
+
+header#header .row .header-logo img {
+    max-width: 100%;
+}
+
+header#header .row .search-box .input-group select {
+    background-color: #fafafa;
+    border-radius: 3px 0 0 3px;
+    border-color: #dedede;
+    border-right: 0;
+}
+
+header#header .row .search-box .input-group input[type="search"] {
+    border-radius: 0;
+    border-color: #dedede;
+    font-size: 0.9rem;
+    border-left: none;
+    border-right: none;
+}
+
+header#header .row .search-box .input-group .input-group-append button {
+    border-radius: 0 3px 3px 0;
+    border-color: #fd6b90;
+    border-left: 0;
+    padding: 0.8rem 1rem;
+}
+
+nav#navigation {
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+nav#navigation .nav-wrap {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav#navigation .nav-wrap .nav-item .nav-link {
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0.3rem 1rem;
+    border-bottom: 3px solid transparent;
+}
+
+nav#navigation .nav-wrap .nav-item .nav-link:hover {
+    border-bottom-color: #ee3b26;
+}
+
+nav#navigation .nav-wrap .nav-item.dropdown .dropdown-menu .cat-thumbnail img {
+    border-radius: 10px;
+}
+
+.btn {
+    cursor: pointer;
+}
+.btn.btn-primary {
+    border-radius: 7px;
+    padding: 0.7rem 1rem;
+}
+.btn.btn-link {
+    color: #fd6b90;
+    padding: 0;
+    line-height: 2;
+}
+.btn.btn-outline-secondary {
+    border-radius: 7px;
+    padding: 0.7rem 1rem;
+    background-color: #fff;
+    border-color: #dedede;
+}
+.btn.btn-outline-secondary:hover {
+    color: #676767;
+    background-color: #eee;
+}
+.form-group .form-control {
+    border-radius: 7px;
+    padding: 0.7rem 1rem;
+}
+.text-primary {
+    color: #fd6b90 !important;
+}
+
+footer#footer {
+    margin: 0 -15px;
+}
+
+footer#footer .footer-top {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f8f8f8;
+}
+
+footer#footer .footer-top .footer-logo {
+    margin-bottom: 1.5rem;
+}
+
+footer#footer .footer-top .footer-logo img {
+    max-width: 100%;
+    max-height: 45px;
+}
+
+footer#footer ul.list {
+    padding-left: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    line-height: 2;
+}
+
+footer#footer ul.list .list-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+footer#footer ul.list .list-item a,
+footer#footer ul.list .list-item .list-link {
+    color: #676767;
+}
+
+footer#footer .footer-bottom {
+    background-color: #fd6b90;
+    padding: 0.5rem 15px;
+    color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
